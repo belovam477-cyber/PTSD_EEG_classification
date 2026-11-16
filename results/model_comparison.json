@@ -1,0 +1,35 @@
+{
+  "A_full": {
+    "auc": 0.9313432835820896,
+    "auc_ci_low": 0.8756826803482587,
+    "auc_ci_high": 0.9759182340647857,
+    "balanced_accuracy": 0.8504477611940299,
+    "fpr_somatomorphic": 0.3194444444444444,
+    "n_pair": 92,
+    "n_ptsd": 25,
+    "n_control": 67,
+    "n_soma": 72
+  },
+  "B_no_behavior": {
+    "auc": 0.9277611940298507,
+    "auc_ci_low": 0.8677454457085253,
+    "auc_ci_high": 0.9747348395003163,
+    "balanced_accuracy": 0.837910447761194,
+    "fpr_somatomorphic": 0.25,
+    "n_pair": 92,
+    "n_ptsd": 25,
+    "n_control": 67,
+    "n_soma": 72
+  },
+  "C_clean": {
+    "auc": 0.8853731343283583,
+    "auc_ci_low": 0.809302271021021,
+    "auc_ci_high": 0.9453250076970443,
+    "balanced_accuracy": 0.8429850746268657,
+    "fpr_somatomorphic": 0.4444444444444444,
+    "n_pair": 92,
+    "n_ptsd": 25,
+    "n_control": 67,
+    "n_soma": 72
+  }
+}
