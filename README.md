@@ -28,6 +28,9 @@ Based on current neuroscience literature on PTSD, the pipeline extracts and anal
 | **Specificity (Control)** | **0.94** |
 | **False Positive Rate (Somatoform)** | **0.097** |
 
+![ROC Curve](results/figures/fig_roc.png)
+![Top Features](results/figures/fig_top_features.png)
+
 *Note: The final prediction is an ensemble of Logistic Regression (weight 0.65) and SVM with RBF kernel (weight 0.35).*
 
 ## 🛠️ Tech Stack
