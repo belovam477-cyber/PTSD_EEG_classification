@@ -31,6 +31,8 @@ Based on current neuroscience literature on PTSD, the pipeline extracts and anal
 ![ROC Curve](results/figures/fig_roc.png)
 ![Top Features](results/figures/fig_top_features.png)
 
+![Confusion Matrix](results/figures/fig_confusion_matrix.png)
+
 *Note: The final prediction is an ensemble of Logistic Regression (weight 0.65) and SVM with RBF kernel (weight 0.35).*
 
 ## 🛠️ Tech Stack
