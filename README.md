@@ -6,7 +6,7 @@ An end-to-end Machine Learning pipeline designed to differentiate between PTSD, 
 This project leverages neurophysiological markers extracted from resting-state and cognitive task (Schulte tables) EEG recordings. The goal is to build a robust, interpretable model that can aid in clinical diagnostics and provide insights into the neurobiology of PTSD.
 
 ## 📁 Dataset
-*   **Sample Size:** N=164 subjects (PTSD: 25, Somatoform: 74, Control: 67).
+*   **Sample Size:** N=164 subjects (PTSD: 25, Somatoform: 72, Control: 67).
 *   **Note:** The dataset is imbalanced towards the Control/Somatoform groups. We address this by reporting Sensitivity (Recall for PTSD) and Specificity, rather than relying solely on Accuracy. The baseline (majority class) accuracy is **72.8%**.
 *   **Model Performance:** Our best model achieves an ROC-AUC of 0.949, significantly outperforming the baseline.
 
@@ -59,7 +59,7 @@ Based on current neuroscience literature on PTSD, the pipeline extracts and anal
 The raw EEG data (`.edf` files) and patient metadata are **not** included in this repository due to medical privacy restrictions. The code is provided for pipeline demonstration and reproducibility purposes.
 
 ## ⚠️ Limitations
-*   **Class Imbalance:** The dataset is imbalanced (PTSD: 25, Somatoform: 74, Control: 67). While we use Sensitivity/Specificity to evaluate performance, a larger PTSD cohort is needed for clinical robustness.
+*   **Class Imbalance:** The dataset is imbalanced (PTSD: 25, Somatoform: 72, Control: 67). While we use Sensitivity/Specificity to evaluate performance, a larger PTSD cohort is needed for clinical robustness.
 *   **Small Sample Size:** N=166 is relatively small for ML in healthcare. External validation on a larger, independent dataset is required.
 *   **Confounders:** Age, gender, and medication status were not fully controlled in this study and may affect EEG features.
 *   **Ensemble Weights:** Weights for the SVM + LR ensemble were optimized on LOSO validation folds. A fully nested LOSO approach would provide an even stricter generalization estimate.
